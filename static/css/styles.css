@@ -3,7 +3,6 @@ body {
    font-weight: 300;
 }
 
-
 h1 {
     font-family: 'Lobster', cursive;
     font-size: 3.5rem;
@@ -88,7 +87,7 @@ header.masthead::after {
 #about {
     background-color: #365B6D;
     color: white;
-    padding: 10% 0 10% 20%;
+    padding: 10% 5% 10% 20%;
 }
 
 .img-about {
@@ -105,7 +104,7 @@ header.masthead::after {
 
 #skills {
     background-color: #F2F1EC;
-    padding: 10% 0 10% 20%;
+    padding: 10% 5% 10% 20%;
 }
 
 .first-row {
@@ -115,7 +114,7 @@ header.masthead::after {
 
 /* Contact me section */
 #contact-me {
-    padding: 10% 0 10% 0;
+    padding: 10% 0 0 0;
     background-color: #365B6D;
     color: white;
 }
@@ -130,4 +129,17 @@ header.masthead::after {
 
 .btn {
    margin-top: 3%;
+}
+
+.hr-bottom {
+    margin-top: 10%;
+}
+
+.last-p {
+    font-size: 0.8rem;
+}
+
+.alert {
+    padding-top: 5%;
+    margin-top: 5%;
 }
